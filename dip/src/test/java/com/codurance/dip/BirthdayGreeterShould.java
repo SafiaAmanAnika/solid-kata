@@ -26,6 +26,9 @@ public class BirthdayGreeterShould {
     @Mock
     private Clock clock;
 
+    @Mock
+    private GreetingSender greetingSender;  
+
     @InjectMocks
     private BirthdayGreeter birthdayGreeter;
 
