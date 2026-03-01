@@ -11,11 +11,11 @@ public class Transaction {
         this.amount = amount;
     }
 
-    public LocalDate date() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public int amount() {
+    public int getAmount() {
         return amount;
     }
 }
